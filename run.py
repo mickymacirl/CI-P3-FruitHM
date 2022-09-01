@@ -22,5 +22,6 @@ def get_guess():
 def play_again():
     print("Play Again")
 
+
 def main_game():
     print("Main Game")
