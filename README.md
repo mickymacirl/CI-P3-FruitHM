@@ -166,7 +166,7 @@ https://medium.com/@branzoldecode/hangman-game-with-python-fbd64e99a96f
 
 ### Clear Screen Function
 
-* Used *[Geeks for Geeks](https://www.geeksforgeeks.org/clear-screen-python/)* to create clear screen function.
+* Used *[Geeks for Geeks Clear Screen Python](https://www.geeksforgeeks.org/clear-screen-python/)* to help create the clear screen function.
 
 ### Fruit Names
 
