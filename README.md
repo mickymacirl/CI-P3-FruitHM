@@ -12,7 +12,7 @@
 
 ## Flow Chart
 
-
+![Flow Chart](./assets/readme/hangmanfc.jpg)
 # Technologies
 
 
