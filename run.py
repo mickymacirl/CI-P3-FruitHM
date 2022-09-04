@@ -1,6 +1,4 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+''' Hangman: The Fruit Edition(TM) '''
 from os import system, name
 import sys
 import random
@@ -372,6 +370,7 @@ def see_instructions():
         logo_display()
         instructions_yn()
         see_instructions()
+
 
 clear()
 see_instructions()
