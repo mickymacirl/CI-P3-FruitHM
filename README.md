@@ -163,6 +163,10 @@ Added a Fore.RESET print and created a delete_last_line fuction to delete last l
 * Used *[Termcolor](https://pypi.org/project/termcolor/)* to create ascii art for the logo.
 * Used *[TowardsDataScience](https://towardsdatascience.com/prettify-your-terminal-text-with-termcolor-and-pyfiglet-880de83fda6b)* to create termcolor background.
 
+### Command Line Interfaces with Python
+
+* Used *[Code Burst.io](https://codeburst.io/building-beautiful-command-line-interfaces-with-python-26c7e1bb54df)* for reference.
+
 ### Tutorials
 
 Some helpful tutorials that were reference to help with coding some of the design and structure:
