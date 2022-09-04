@@ -9,6 +9,15 @@ from colorama import init
 from colorama import Fore
 from board import board  # import board from board.py
 from words import words  # import words from words.py
+from art import logo_display  # import logo_display from art.py
+from messages import exit_message  # import exit_message from message.py
+from messages import game_title  # import game_title from messages.py
+from messages import game_rules  # import game_rules from messages.py
+from messages import game_pick  # import game_rules from messages.py
+from messages import game_yn  # import game_yn from messages.py
+from messages import instructions_yn  # import instructions from messages.py
+from messages import game_win  # import game_win from messages.py
+from messages import game_loss  # import game_loss from messages.pyS
 
 init(autoreset=True)  # auto reset colorama
 
