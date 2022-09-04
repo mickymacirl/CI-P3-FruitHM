@@ -155,4 +155,92 @@ def play_again():
 
 
 def main_game():
-    print("Main Game")
+    """This function resets variables for game and displays
+    the main game board passing letter guess
+    If win, display details, else add missed guess to guessed
+    and if missing letters is 8, display game lose"""
+    random_word_from_list = get_random_word(words)
+    missing_letter = ""
+    correct_guess = ""
+    game_is_over = False
+
+    while True:
+        display_the_board(missing_letter, correct_guess, random_word_from_list)
+
+        guessed = get_guess(missing_letter + correct_guess)
+        # If the player has guessed all letters
+        if guessed in random_word_from_list:
+            correct_guess = correct_guess + guessed
+            have_all_letters = True
+#            for i in range(len(random_word_from_list)):
+#                if random_word_from_list[i] not in correct_guess:
+#                    have_all_letters = False
+#                    break
+            for k_r, v_r in enumerate(random_word_from_list):
+                if v_r not in correct_guess:
+                    print(k_r)  # print then clear
+                    clear()
+                    have_all_letters = False
+                    break
+
+            # Display win message to player with details
+            if have_all_letters:
+                clear()
+                game_win()
+                print(
+                    f"{Fore.YELLOW}".center(36)
+                    + str(len(missing_letter))
+                    + " missed letters!".center(10)
+                )
+                print(
+                    f"{Fore.YELLOW}".center(36)
+                    + str(len(correct_guess))
+                    + " correct letters!".center(10)
+                )
+                print(f"{Fore.RED}The word was: ".center(82))
+                text_word = random_word_from_list
+                i = text_word.center(80, " ")
+                print(i)
+                print(f"{Fore.YELLOW}+-------------------------+".center(83))
+                print("\n")
+                game_is_over = True
+
+        else:
+            missing_letter = missing_letter + guessed
+
+            # If player hasn't guessed within 8 guesses,
+            # as listed in board.py, will display loss message
+            if len(missing_letter) == len(board) - 1:
+                clear()
+                logo_display()
+                game_loss()
+                print(
+                    f"{Fore.YELLOW}".center(36)
+                    + str(len(missing_letter))
+                    + " missed letters!".center(10)
+                )
+                print(
+                    f"{Fore.YELLOW}".center(36)
+                    + str(len(correct_guess))
+                    + " correct letters!".center(10)
+                )
+                print(f"{Fore.RED}The word was: ".center(82))
+                text_word = random_word_from_list
+                i = text_word.center(80, " ")
+                print(i)
+                print(f"{Fore.YELLOW}+-------------------------+".center(83))
+                print("\n")
+                game_is_over = True
+
+        # Ask player if they want to play the game again
+        # if the game is over. Reset board and null variables
+        # and get new word
+        if game_is_over:
+            if play_again():
+                clear()
+                missing_letter = ""
+                correct_guess = ""
+                game_is_over = False
+                random_word_from_list = get_random_word(words)
+            else:
+                break
