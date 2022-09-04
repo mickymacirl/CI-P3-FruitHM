@@ -4,13 +4,11 @@ In this game, HANGMAN: The Fruit Edition(TM), players try to guess all letters o
 
 This game is based on the Hangman, pen and paper game that possibly stretches back to the 1890s.
 
-There are even stories claiming that criminals sentenced to death by hanging could demand the "Rite of Words and Life."
-
-The Executioner would pick a five-letter word, marking correctly guessed letters on the dashes of a board. 
-
-At every incorrect guess the executioner would use a sledgehammer or axe to knock away a single leg of the stand. Five wrong guesses, thus, meant that the criminal was hanged. 
+There are even stories claiming that criminals sentenced to death by hanging could demand the "Rite of Words and Life." The Executioner would pick a five-letter word, marking correctly guessed letters on the dashes of a board.At every incorrect guess the executioner would use a sledgehammer or axe to knock away a single leg of the stand. Five wrong guesses, thus, meant that the criminal was hanged.
 
 If the entire word was filled in correctly or guessed, the condemned would be set free from that sentence and not tried again on that crime. The irony was that almost all of those criminals were illiterate.
+
+The TV show Wheel of Fortune based on the game has been broadcast worldwide starting from 1960s.
 
 View the live project here
 
@@ -109,6 +107,10 @@ Added a Fore.RESET print and created a delete_last_line fuction to delete last l
 ## Version Control
 
 ## Credits
+
+### History of Hangman
+
+- Used *[History of Hangman](https://www.ludozofi.com/home/games/hangman/)* for information on the history of Hangman.
 
 ## Reminders
 
