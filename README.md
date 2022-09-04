@@ -27,9 +27,7 @@ If the player draws all body parts and the word still hasn't been found, the pla
 
 ### Logo
 
-* Pyfiglet is installed and used to import pyfiglet, which generates the Hangman text using the standard font.
-The cybersmall font was used for the secondary text, with centered yellow text with the fruit edition.
-A logo-display function was created and stored within the messages.py file and imported for use when needed.
+* Pyfiglet is installed and used to import pyfiglet, which generates the Hangman text using the standard font. The cybersmall font was used for the secondary text, with centred yellow text. A logo-display function was created and stored within the messages.py file and imported for use when needed.
 
 ![Logo Readme](./assets/readme/logorm.jpg)
 
