@@ -48,7 +48,7 @@ def game_rules():
     print(f"{Fore.YELLOW}HANGMAN: The Fruit Edition(TM) Game Instructions")
     print()
     print("The hangman consists of a head, a body, 2 arms, 2 legs, and ears.")
-    print("If you correctly gues the puzzle or fill in all of the letters")
+    print("If you correctly guess the puzzle or fill in all of the letters")
     print("before the hangman is complete, you WIN!")
     print()
     print("You have 8 chances to guess the correct fruit letters!")
