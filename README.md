@@ -8,35 +8,33 @@ gallows for every incorrect guess.
 If players draw all body parts and the word still hasnt
 been spelled out, the players lose.
 
-# How to Play
+## How to Play
 
-#  User Experience
+## User Experience
 
-# Features
+## Features
 
-# Features to Implement
+## Features to Implement
 
-# Design
+## Design
 
-## Flow Chart
+### Flow Chart
 
 ![Flow Chart](./assets/readme/hangmanfc.jpg)
-# Technologies
 
+## Technologies
 
-# Python Libraries
+## Python Libraries
 
-# Testing
+## Testing
 
+## Bugs and Fixes
 
-# Bugs and Fixes
+## Deployment
 
-# Deployment
+## Version Control
 
-# Version Control
-
-# Credits
-
+## Credits
 
 ## Reminders
 
