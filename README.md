@@ -153,6 +153,7 @@ Added a Fore.RESET print and created a delete_last_line fuction to delete last l
 ### Termcolor
 
 * Used *[Termcolor](https://pypi.org/project/termcolor/)* to create ascii art for the logo.
+* Used *[TowardsDataScience](https://towardsdatascience.com/prettify-your-terminal-text-with-termcolor-and-pyfiglet-880de83fda6b)* to create termcolor background.
 
 ## Reminders
 
