@@ -2,6 +2,9 @@
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 from os import system, name
+import sys
+import random
+import time
 from board import board  # import board from board.py
 from words import words  # import words from words.py
 
