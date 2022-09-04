@@ -20,8 +20,13 @@ def clear():
         _ = system("clear")
 
 
-def get_random_word():
-    print("Random Word")
+def get_random_word(words_list):
+    """Get Random Word Function
+    This function uses the random import to get a random word from the
+    words.py file.
+    """
+    list_of_words = random.randint(0, len(words_list) - 1)
+    return words_list[list_of_words]
 
 
 def display_the_board():
