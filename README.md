@@ -159,10 +159,14 @@ Added a Fore.RESET print and created a delete_last_line fuction to delete last l
 * Used *[Termcolor](https://pypi.org/project/termcolor/)* to create ascii art for the logo.
 * Used *[TowardsDataScience](https://towardsdatascience.com/prettify-your-terminal-text-with-termcolor-and-pyfiglet-880de83fda6b)* to create termcolor background.
 
-https://data-flair.training/blogs/hangman-game-python-code/
-https://www.geeksforgeeks.org/hangman-game-python/
-https://inventwithpython.com/invent4thed/chapter8.html
-https://medium.com/@branzoldecode/hangman-game-with-python-fbd64e99a96f
+### Tutorials
+
+Some helpful tutorials that were reference to help with coding some of the design and structure:
+
+* *[Data Flair Hangman Game Python](https://data-flair.training/blogs/hangman-game-python-code/)*
+* *[Geeks for Geeks Hangman Game Python](https://www.geeksforgeeks.org/hangman-game-python/)*
+* *[Invent with Python Hangman Game Python](https://inventwithpython.com/invent4thed/chapter8.html)*
+* *[Medium.com Hangman Game with Python](https://medium.com/@branzoldecode/hangman-game-with-python-fbd64e99a96f)*
 
 ### Clear Screen Function
 
