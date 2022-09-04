@@ -372,3 +372,6 @@ def see_instructions():
         logo_display()
         instructions_yn()
         see_instructions()
+
+clear()
+see_instructions()
