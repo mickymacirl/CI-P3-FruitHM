@@ -146,7 +146,7 @@ Added a Fore.RESET print and created a delete_last_line fuction to delete last l
 
 ### Python Reference
 
-* Used *[W3Schools Python Formatter](https://www.w3schools.com/python/default.asp)* for reference with python use.
+* Used *[W3Schools Python](https://www.w3schools.com/python/default.asp)* for reference with python use.
 
 ### Pyfiglet
 
