@@ -253,3 +253,122 @@ def delete_last_line(one_line=1):
     for _ in range(one_line):
         sys.stdout.write(up_one_line)
         sys.stdout.write(delete_line)
+
+
+def instructions():
+    """This function askes the player if they want to play the game
+    after reading the instructions
+    If they choose y, clear screen and call main_game
+    If they choose n, clear the screen and display exit message
+    If they choose q, clear the screen and display exit message
+    else call instructions again
+    """
+    clear()
+    print(Fore.RESET)  # reset color
+    delete_last_line()
+    logo_display()
+    game_rules()
+    user_input = input(
+        f"{Fore.YELLOW}" + f"Do you want to play? Y, N or Q:{Fore.RESET}\n"
+    ).lower()
+    if user_input == "y":
+        clear()
+        main_game()
+
+    elif user_input == "n":
+        clear()
+        logo_display()
+        exit_message()
+        exit()
+
+    elif user_input == "q":
+        clear()
+        logo_display()
+        exit_message()
+        exit()
+
+    else:
+        clear()
+        logo_display()
+        game_yn()
+        see_instructions()
+
+
+def see_instructions():
+    """This fuction asks the player if they want to read the instructions
+    Chooosing N will start the game
+    If not y, n, q display instructions"""
+    clear()
+    logo_display()
+    print(f"{Fore.YELLOW}Welcome to Hangman, the Fruit Edition(TM)\n")
+    game_title()
+    print("Please wait")
+    print("Game Loading.")
+    time.sleep(1)
+    delete_last_line()
+    print(f"{Fore.RED}Drawing HANGMAN Board.")
+    time.sleep(0.5)
+    delete_last_line()
+    print(f"{Fore.RED}Drawing HANGMAN Board..")
+    time.sleep(1)
+    delete_last_line()
+    print(f"{Fore.RED}Drawing HANGMAN Board...")
+    time.sleep(0.5)
+    delete_last_line()
+    print(f"{Fore.RED}Drawing HANGMAN Board....")
+    time.sleep(0.5)
+    delete_last_line()
+    print(f"{Fore.MAGENTA}HANGMAN Board Done!")
+    time.sleep(1)
+    delete_last_line()
+    print("Game Loading..")
+    time.sleep(0.5)
+    delete_last_line()
+    print(f"{Fore.RED}Calculating draw distance.")
+    time.sleep(1)
+    delete_last_line()
+    print("Game Loading...")
+    time.sleep(1)
+    delete_last_line()
+    print(f"{Fore.RED}Generating Random Fruit Word.")
+    time.sleep(1.5)
+    delete_last_line()
+    print("Game Loading....")
+    time.sleep(0.5)
+    delete_last_line()
+    print(f"{Fore.MAGENTA}Fruit Word Selected!")
+    time.sleep(0.5)
+    delete_last_line()
+    print("Game Loading.....")
+    time.sleep(0.5)
+    delete_last_line()
+    print("Game Loading......")
+    time.sleep(0.5)
+    delete_last_line()
+    print("Game Loading.......")
+    time.sleep(0.5)
+    delete_last_line()
+    print(f"{Fore.MAGENTA}Complete! Game Ready!")
+    print("")
+    user_input = input(
+        f"{Fore.YELLOW}" + "Do you want to read the instructions? Y, N or Q:\n"
+    ).lower()
+    if user_input == "y":
+        clear()
+        instructions()
+
+    elif user_input == "n":
+        clear()
+        main_game()
+
+    elif user_input == "q":
+        clear()
+        logo_display()
+        exit_message()
+        exit()
+
+    else:
+        clear()
+        logo_display()
+        instructions_yn()
+        see_instructions()
