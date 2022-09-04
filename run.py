@@ -64,8 +64,63 @@ def display_the_board(missing_letter, correct_guess, random_word_from_list):
     print(random_word_from_list)
 
 
-def get_guess():
-    print("Get Player Guess")
+def get_guess(already_guessed):
+    """This function askes for guess, and checks that guess is
+    not greater than 1, display error message
+    must be equal to letter
+    must not equal an already guessed letter"""
+    while True:
+        alphabet = "abcdefghijklmnopqrstuvwxyz"
+        game_pick()
+        guessed = input()  # Get player guess
+        guessed = guessed.lower()  # Force guessed lowercase
+        clear()  # Clear Screen
+        if len(guessed) != 1:
+            clear()  # Clear Screen
+            logo_display()  # Display Logo
+            print(f"{Fore.YELLOW}~-------------------------------~".center(80))
+            check_guess = f"{Fore.RED}'" + guessed + "' checking."
+            i = check_guess.center(79, " ")
+            print(i)
+            time.sleep(1)
+            delete_last_line()
+            print(f"{Fore.YELLOW}~-------------------------------~".center(80))
+            time.sleep(1)
+            delete_last_line()
+            clear()
+            logo_display()
+            print(f"{Fore.YELLOW}~-------------------------------~".center(80))
+            check_guess = f"{Fore.RED}'" + guessed + "' checking.."
+            i = check_guess.center(79, " ")
+            print(i)
+            time.sleep(1)
+            delete_last_line()
+            print(f"{Fore.YELLOW}~-------------------------------~".center(80))
+            check_guess = f"{Fore.RED}'" + guessed + "' isn't acceptable!"
+            i = check_guess.center(79, " ")
+            print(i)
+            print(f"{Fore.RED}Enter a single fruit letter only!".center(80))
+            print(f"{Fore.YELLOW}~-------------------------------~".center(80))
+        elif guessed not in alphabet:
+            clear()
+            logo_display()
+            print(f"{Fore.YELLOW}~------------------------------~".center(80))
+            check_guess = f"{Fore.RED}'" + guessed + "' is not a letter!"
+            i = check_guess.center(79, " ")
+            print(i)
+            print(f"{Fore.RED}Enter a LETTER only!".center(80))
+            print(f"{Fore.YELLOW}~------------------------------~".center(80))
+        elif guessed in already_guessed:
+            logo_display()
+            print(f"{Fore.YELLOW}~-------------------------------~".center(80))
+            check_guess = f"{Fore.RED}'" + guessed + "' is already used!"
+            i = check_guess.center(79, " ")
+            print(i)
+            print(f"{Fore.RED}Choose another letter!".center(80))
+            print(f"{Fore.YELLOW}~-------------------------------~".center(80))
+        else:
+
+            return guessed
 
 
 def play_again():
