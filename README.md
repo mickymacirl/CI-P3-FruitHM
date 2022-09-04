@@ -57,13 +57,6 @@ The See_instructions fuction user input color was bleeding into the logo-display
 ![Color Bleed](./assets/readme/colorbleedrm.jpg)
 
 def instructions():
-    """This function askes the player if they want to play the game
-    after reading the instructions
-    If they choose y, clear screen and call main_game
-    If they choose n, clear the screen and display exit message
-    If they choose q, clear the screen and display exit message
-    else call instructions again
-    """
     clear()
     logo_display()
     game_rules()
@@ -98,6 +91,7 @@ Added a Fore.RESET print and created a delete_last_line fuction to delete last l
 
     print(Fore.RESET)  # reset color
     delete_last_line()
+
 ## Deployment
 
 ## Version Control
