@@ -245,6 +245,8 @@ def main_game():
 
 
 def delete_last_line(one_line=1):
+    '''' Delete last line function
+    for game start and color fix'''
     up_one_line = '\x1b[1A'
     delete_line = '\x1b[2K'
     # one_line = []
