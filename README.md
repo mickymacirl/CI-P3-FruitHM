@@ -31,9 +31,7 @@ If the player draws all body parts and the word still hasn't been found, the pla
 The cybersmall font was used for the secondary text, with centered yellow text with the fruit edition.
 A logo-display function was created and stored within the messages.py file and imported for use when needed.
 
-
 ![Logo Readme](./assets/readme/logorm.jpg)
-
 
 ## Features to Implement
 
@@ -49,9 +47,13 @@ A logo-display function was created and stored within the messages.py file and i
 
 ### Built-in Python Libraries
 
-* OS was imported to create a clear function to clear the terminal. This improves the user experience when replaying games by removing the previous game and previous menus and making the screen clearer and more structured.
+* OS was imported to create a clear function to clear the terminal. Both system and name being imported for use in the clear function. The clear function improves the user experience when replaying games by removing the previous game and previous menus and making the screen clearer and more structured.
 
 * random was imported to access the random built-in method for random numbers using randint() method. This is used to generate the random pick of the fruit words from the words.py file.
+
+* sys was imported to use in the delete last line function.
+
+* time was imported to use in the time.sleep commands in the game loading screen and various other places.
 
 ### Others
 
