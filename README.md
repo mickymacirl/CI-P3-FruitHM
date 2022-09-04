@@ -128,6 +128,10 @@ Added a Fore.RESET print and created a delete_last_line fuction to delete last l
 
 ## Deployment
 
+### Template
+
+* A repository called 'CI-P3-FruitHM' was created using the *[Code Institute Python Essentials Template](https://github.com/Code-Institute-Org/python-essentials-template)*.
+
 ## Version Control
 
 ## Credits
