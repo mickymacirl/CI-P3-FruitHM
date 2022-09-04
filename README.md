@@ -56,34 +56,34 @@ The See_instructions fuction user input color was bleeding into the logo-display
 
 ![Color Bleed](./assets/readme/colorbleedrm.jpg)
 
-def instructions():
-    clear()
-    logo_display()
-    game_rules()
-    user_input = input(
-        f"{Fore.YELLOW}" + f"Do you want to play? Y, N or Q:{Fore.RESET}\n"
-    ).lower()
-    if user_input == "y":
-        clear()
-        main_game()
-
-    elif user_input == "n":
+    def instructions():
         clear()
         logo_display()
-        exit_message()
-        exit()
+        game_rules()
+        user_input = input(
+            f"{Fore.YELLOW}" + f"Do you want to play? Y, N or Q:{Fore.RESET}\n"
+        ).lower()
+        if user_input == "y":
+            clear()
+            main_game()
 
-    elif user_input == "q":
-        clear()
-        logo_display()
-        exit_message()
-        exit()
+        elif user_input == "n":
+            clear()
+            logo_display()
+            exit_message()
+            exit()
 
-    else:
-        clear()
-        logo_display()
-        game_yn()
-        see_instructions()
+        elif user_input == "q":
+            clear()
+            logo_display()
+            exit_message()
+            exit()
+
+        else:
+            clear()
+            logo_display()
+            game_yn()
+            see_instructions()
 
 Added a Fore.RESET print and created a delete_last_line fuction to delete last line to clear color bleed.
 
