@@ -30,6 +30,26 @@ been spelled out, the players lose.
 
 ## Bugs and Fixes
 
+### PYLINT Error when using range length line 176
+
+Error was "Consider using enumerate instead of iterating with range and lenpylint((consider-using-enumerate))"
+
+            for i in range(len(random_word_from_list)):
+                if random_word_from_list[i] not in correct_guess:
+                    have_all_letters = False
+                    break
+
+No need to use range length, can just use enumerate to iterate over it.
+
+Using for k, v because enumerate returns the count and the value, not just the current index.
+
+            for k_r, v_r in enumerate(random_word_from_list):
+                if v_r not in correct_guess:
+                    print(k_r)  # print then clear
+                    clear()
+                    have_all_letters = False
+                    break
+
 ## Deployment
 
 ## Version Control
