@@ -20,7 +20,7 @@ from messages import game_loss  # import game_loss from messages.pyS
 init(autoreset=True)  # auto reset colorama
 
 
-# define our clear function
+# define clear function
 def clear():
     """This function uses the os import and assigns clear
     to clear the screen"""
