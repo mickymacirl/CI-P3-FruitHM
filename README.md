@@ -140,6 +140,10 @@ Added a Fore.RESET print and created a delete_last_line fuction to delete last l
 
 * Used *[History of Hangman](https://www.ludozofi.com/home/games/hangman/)* for information on the history of Hangman.
 
+### Python Formatter
+
+* Used *[Online Python Formatter](https://www.tutorialspoint.com/online_python_formatter.htm)* to correctly format python code.
+
 ### Pyfiglet
 
 * Used *[Pyfiglet](https://github.com/pwaller/pyfiglet/)* to create ascii art for the logo.
@@ -154,6 +158,19 @@ Added a Fore.RESET print and created a delete_last_line fuction to delete last l
 
 * Used *[Termcolor](https://pypi.org/project/termcolor/)* to create ascii art for the logo.
 * Used *[TowardsDataScience](https://towardsdatascience.com/prettify-your-terminal-text-with-termcolor-and-pyfiglet-880de83fda6b)* to create termcolor background.
+
+https://data-flair.training/blogs/hangman-game-python-code/
+https://www.geeksforgeeks.org/hangman-game-python/
+https://inventwithpython.com/invent4thed/chapter8.html
+https://medium.com/@branzoldecode/hangman-game-with-python-fbd64e99a96f
+
+### Clear Screen Function
+
+* Used *[Geeks for Geeks](https://www.geeksforgeeks.org/clear-screen-python/)* to create clear screen function.
+
+### Fruit Names
+
+* Used *[7esl.com](https://7esl.com/fruits-vocabulary-english/)* for fruit words to use in words.py.
 
 ## Reminders
 
