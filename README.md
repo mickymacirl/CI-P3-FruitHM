@@ -148,6 +148,7 @@ Added a Fore.RESET print and created a delete_last_line fuction to delete last l
 ### Colorama
 
 * Used *[Colorama](https://pypi.org/project/colorama/)* to produce colored terminal text.
+* Used *[Stackoverflow](https://stackoverflow.com/questions/43649051/a-way-to-not-have-to-reset-the-color-style-in-colorama-every-time)* to troubleshoot colorama color reset.
 
 ### Termcolor
 
