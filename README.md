@@ -47,6 +47,13 @@ A logo-display function was created and stored within the messages.py file and i
 
 ## Python Libraries
 
+### Built-in Python Libraries
+
+* OS
+OS was imported to create a clear function to clear the terminal. This improves the user experience when replaying games by removing the previous game and previous menus and making the screen clearer and more structured.
+
+### Others
+
 ## Testing
 
 ## Bugs and Fixes
