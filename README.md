@@ -143,6 +143,7 @@ Added a Fore.RESET print and created a delete_last_line fuction to delete last l
 ### Pyfiglet
 
 * Used *[Pyfiglet](https://github.com/pwaller/pyfiglet/)* to create ascii art for the logo.
+* Used *[Code Speedy](https://www.codespeedy.com/pyfiglet-in-python/)* for code example of pyfiglet.
 
 ### Colorama
 
