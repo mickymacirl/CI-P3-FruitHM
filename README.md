@@ -144,6 +144,10 @@ Added a Fore.RESET print and created a delete_last_line fuction to delete last l
 
 * Used *[Online Python Formatter](https://www.tutorialspoint.com/online_python_formatter.htm)* to correctly format python code.
 
+### Python Reference
+
+* Used *[W3Schools Python Formatter](https://www.w3schools.com/python/default.asp)* for reference with python use.
+
 ### Pyfiglet
 
 * Used *[Pyfiglet](https://github.com/pwaller/pyfiglet/)* to create ascii art for the logo.
