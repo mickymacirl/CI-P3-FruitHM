@@ -1,12 +1,23 @@
 # Your code goes here.
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
+from os import system, name
 from board import board  # import board from board.py
 from words import words  # import words from words.py
 
 
+# define our clear function
 def clear():
-    print("Clear")
+    """This function uses the os import and assigns clear
+    to clear the screen"""
+
+    # for windows
+    if name == "nt":
+        _ = system("cls")
+
+    # for mac and linux(here, os.name is 'posix')
+    else:
+        _ = system("clear")
 
 
 def get_random_word():
