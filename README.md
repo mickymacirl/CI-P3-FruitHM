@@ -57,6 +57,10 @@ A logo-display function was created and stored within the messages.py file and i
 
 ### Others
 
+* Colorama was imported for use in coloring fonts and game bars in python fuctions.
+* Pyfiglet was used for adding ascii art to logo.
+* termcolor was used to highlight both win and loss message.py functions.
+
 ## Testing
 
 ## Bugs and Fixes
