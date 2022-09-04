@@ -136,7 +136,7 @@ Added a Fore.RESET print and created a delete_last_line fuction to delete last l
 
 ### History of Hangman
 
-- Used *[History of Hangman](https://www.ludozofi.com/home/games/hangman/)* for information on the history of Hangman.
+* Used *[History of Hangman](https://www.ludozofi.com/home/games/hangman/)* for information on the history of Hangman.
 
 ## Reminders
 
