@@ -124,7 +124,25 @@ def get_guess(already_guessed):
 
 
 def play_again():
-    print("Play Again")
+    """This function askes the player do they want to play again"""
+    player_choice = input(
+        f"{Fore.YELLOW}" + f"Do you want to play again? Y or N:{Fore.RESET}\n"
+    ).lower()
+    if player_choice == "y":
+        clear()
+        main_game()
+
+    elif player_choice == "n":
+        clear()
+        logo_display()
+        exit_message()
+        exit()
+
+    else:
+        clear()
+        logo_display()
+        game_yn()
+        play_again()
 
 
 def main_game():
