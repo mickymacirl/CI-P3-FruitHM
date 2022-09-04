@@ -244,3 +244,12 @@ def main_game():
                 random_word_from_list = get_random_word(words)
             else:
                 break
+
+
+def delete_last_line(one_line=1):
+    up_one_line = '\x1b[1A'
+    delete_line = '\x1b[2K'
+    # one_line = []
+    for _ in range(one_line):
+        sys.stdout.write(up_one_line)
+        sys.stdout.write(delete_line)
