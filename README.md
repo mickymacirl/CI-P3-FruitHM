@@ -1,4 +1,29 @@
-# HANGMAN The Fruit Edition(TM)
+# HANGMAN: The Fruit Edition(TM)
+
+# How to Play
+
+#  User Experience
+
+# Features
+
+# Features to Implement
+
+# Technologies
+
+
+# Python Libraries
+
+# Testing
+
+
+# Bugs and Fixes
+
+# Deployment
+
+# Version Control
+
+# Credits
+
 
 ## Reminders
 
