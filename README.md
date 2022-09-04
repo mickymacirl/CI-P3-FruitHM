@@ -18,7 +18,6 @@ Players guess letters of an unrevealed fruit-themed word and then draw an arm, l
 
 If the player draws all body parts and the word still hasn't been found, the player loses.
 
-
 ## User Experience
 
 ## Features
