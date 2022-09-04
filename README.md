@@ -152,9 +152,6 @@ Added a Fore.RESET print and created a delete_last_line fuction to delete last l
 
 * Used *[Termcolor](https://pypi.org/project/termcolor/)* to create ascii art for the logo.
 
-### Pyfiglet
-
-* Used *[Pyfiglet](https://github.com/pwaller/pyfiglet/)* to create ascii art for the logo.
 ## Reminders
 
 * Your code must be placed in the `run.py` file
