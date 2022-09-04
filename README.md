@@ -1,14 +1,25 @@
 # HANGMAN: The Fruit Edition(TM)
 
-The origins of the game Hangman are unclear but could stretch back
-to the 1890s. Players guess letters of an unrevealed word and then
-draw an arm, leg, head or torso of a stick figure hanging from
-gallows for every incorrect guess.
+In this game, HANGMAN: The Fruit Edition(TM), players try to guess all letters of a word based on the different types of fruit.
 
-If players draw all body parts and the word still hasnt
-been spelled out, the players lose.
+This game is based on the Hangman, pen and paper game that possibly stretches back to the 1890s.
+
+There are even stories claiming that criminals sentenced to death by hanging could demand the "Rite of Words and Life."
+
+The Executioner would pick a five-letter word, marking correctly guessed letters on the dashes of a board. 
+
+At every incorrect guess the executioner would use a sledgehammer or axe to knock away a single leg of the stand. Five wrong guesses, thus, meant that the criminal was hanged. 
+
+If the entire word was filled in correctly or guessed, the condemned would be set free from that sentence and not tried again on that crime. The irony was that almost all of those criminals were illiterate.
+
+View the live project here
 
 ## How to Play
+
+Players guess letters of an unrevealed fruit-themed word and then draw an arm, leg, head or torso of a stick figure hanging from gallows for every incorrect guess.
+
+If the player draws all body parts and the word still hasn't been found, the player loses.
+
 
 ## User Experience
 
