@@ -41,7 +41,7 @@ Error was "Consider using enumerate instead of iterating with range and lenpylin
 
 No need to use range length, can just use enumerate to iterate over it.
 
-Using for k, v because enumerate returns the count and the value, not just the current index.
+Using for k_r, v_r because enumerate returns the count and the value, not just the current index.
 
             for k_r, v_r in enumerate(random_word_from_list):
                 if v_r not in correct_guess:
@@ -50,6 +50,54 @@ Using for k, v because enumerate returns the count and the value, not just the c
                     have_all_letters = False
                     break
 
+### Color Bleed
+
+The See_instructions fuction user input color was bleeding into the logo-display function, causing the logo to be yellow.
+
+![Color Bleed](./assets/readme/colorbleedrm.jpg)
+
+def instructions():
+    """This function askes the player if they want to play the game
+    after reading the instructions
+    If they choose y, clear screen and call main_game
+    If they choose n, clear the screen and display exit message
+    If they choose q, clear the screen and display exit message
+    else call instructions again
+    """
+    clear()
+    logo_display()
+    game_rules()
+    user_input = input(
+        f"{Fore.YELLOW}" + f"Do you want to play? Y, N or Q:{Fore.RESET}\n"
+    ).lower()
+    if user_input == "y":
+        clear()
+        main_game()
+
+    elif user_input == "n":
+        clear()
+        logo_display()
+        exit_message()
+        exit()
+
+    elif user_input == "q":
+        clear()
+        logo_display()
+        exit_message()
+        exit()
+
+    else:
+        clear()
+        logo_display()
+        game_yn()
+        see_instructions()
+
+Added a Fore.RESET print and created a delete_last_line fuction to delete last line to clear color bleed.
+
+![Color Bleed Fixed](./assets/readme/colorbleedfixedrm.jpg)
+
+    print(Fore.RESET)  # reset color
+    delete_last_line()
 ## Deployment
 
 ## Version Control
