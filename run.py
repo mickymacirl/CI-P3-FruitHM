@@ -186,14 +186,14 @@ def main_game():
                 clear()
                 game_win()
                 print(
-                    f"{Fore.YELLOW}".center(36)
-                    + str(len(missing_letter))
-                    + " missed letters!".center(10)
+                    f"{Fore.YELLOW}".center(36) +
+                    str(len(missing_letter)) +
+                    " missed letters!".center(10)
                 )
                 print(
-                    f"{Fore.YELLOW}".center(36)
-                    + str(len(correct_guess))
-                    + " correct letters!".center(10)
+                    f"{Fore.YELLOW}".center(36) +
+                    str(len(correct_guess)) +
+                    " correct letters!".center(10)
                 )
                 print(f"{Fore.RED}The word was: ".center(82))
                 text_word = random_word_from_list
@@ -213,14 +213,14 @@ def main_game():
                 logo_display()
                 game_loss()
                 print(
-                    f"{Fore.YELLOW}".center(36)
-                    + str(len(missing_letter))
-                    + " missed letters!".center(10)
+                    f"{Fore.YELLOW}".center(36) +
+                    str(len(missing_letter)) +
+                    " missed letters!".center(10)
                 )
                 print(
-                    f"{Fore.YELLOW}".center(36)
-                    + str(len(correct_guess))
-                    + " correct letters!".center(10)
+                    f"{Fore.YELLOW}".center(36) +
+                    str(len(correct_guess)) +
+                    " correct letters!".center(10)
                 )
                 print(f"{Fore.RED}The word was: ".center(82))
                 text_word = random_word_from_list
