@@ -136,6 +136,10 @@ Added a Fore.RESET print and created a delete_last_line fuction to delete last l
 
 * Used *[History of Hangman](https://www.ludozofi.com/home/games/hangman/)* for information on the history of Hangman.
 
+### Pyfiglet
+
+* Used *[Pyfiglet](https://pypi.org/project/pyfiglet/0.7/)* to create ascii art for the logo. 
+
 ## Reminders
 
 * Your code must be placed in the `run.py` file
