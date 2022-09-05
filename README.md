@@ -62,6 +62,11 @@ As a User, I want to:
 * know how many attempts are left
 * play a game that is not timed
 
+As a Site Administrator I want to:
+
+* have the random text file, player messages, and images separated into different files to facilitate easy editing
+* offer the player a straightforward and understandable game
+
 ### Program Goals
 
 ### User Stories
