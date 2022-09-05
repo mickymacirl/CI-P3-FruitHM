@@ -234,7 +234,7 @@ Some helpful tutorials that were reference to help with coding some of the desig
 
 * Used *[7esl.com](https://7esl.com/fruits-vocabulary-english/)* for fruit words to use in words.py.
 
-### Flow Chart
+### Flow Chart Creation
 
 * Used *[Lucidchart](https://www.lucidchart.com/pages/)* to create flow chart.
 
@@ -246,14 +246,14 @@ Some helpful tutorials that were reference to help with coding some of the desig
 
 ## Creating the Heroku app
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+When you create the app, you will need to add two buildpacks from the *Settings* tab. The ordering is as follows:
 
 1. `heroku/python`
 2. `heroku/nodejs`
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+You must then create a *Config Var* called `PORT`. Set this to `8000`
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+If you have credentials, such as in the Love Sandwiches project, you must create another *Config Var* called `CREDS` and paste the JSON into the value field.
 
 Connect your GitHub repository and deploy as normal.
 
