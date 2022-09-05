@@ -142,7 +142,7 @@ As a Site Administrator I want to:
 * Choosing Y brings you to the main game.
 * Choosing N or Q quits the game.
 
-
+![Game Instructions](./assets/readme/gameinstrm.jpg)
 
 ## Features to Implement
 
