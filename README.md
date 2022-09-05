@@ -20,6 +20,7 @@ View the live project here
 Players guess letters of an unrevealed fruit-themed word and then draw an head, torso, arms, legs and ears of a stick figure hanging from gallows for every incorrect guess.
 
 If the player draws all body parts and the word still hasn't been found, the player loses.
+
 * A hangman board displays with the number of guesses left.
 
 * Players have 8 attempts to guess the fruit word. Players are asked for their guess, in single letter format.
@@ -58,7 +59,11 @@ As a Site Administrator I want to:
 
 ![Logo Readme](./assets/readme/logorm.jpg)
 
-### 
+### Game Title
+
+* Game Title is split into a function and imported from messages.py to play in the game loading function.
+
+![Game Title Readme](./assets/readme/gametitlerm.jpg)
 
 ## Features to Implement
 
