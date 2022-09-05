@@ -68,7 +68,7 @@ def display_the_board(missing_letter, correct_guess, random_word_from_list):
         # Display random word from the words
         print(letter, end=" ")
     print("\n")
-    print(random_word_from_list)
+    # print(random_word_from_list)
 
 
 def get_guess(already_guessed):
@@ -246,7 +246,6 @@ def delete_last_line(one_line=1):
     for game start and color fix'''
     up_one_line = '\x1b[1A'
     delete_line = '\x1b[2K'
-    # one_line = []
     for _ in range(one_line):
         sys.stdout.write(up_one_line)
         sys.stdout.write(delete_line)
