@@ -17,9 +17,17 @@ View the live project here
 
 ## How to Play
 
-Players guess letters of an unrevealed fruit-themed word and then draw an arm, leg, head or torso of a stick figure hanging from gallows for every incorrect guess.
+Players guess letters of an unrevealed fruit-themed word and then draw an head, torso, arms, legs and ears of a stick figure hanging from gallows for every incorrect guess.
 
 If the player draws all body parts and the word still hasn't been found, the player loses.
+
+* Players have 8 attempts to guess the fruit word. Players are asked for their guess, in single letter format.
+
+* After every attempt (unless successful) the player is asked to guess a letter that is contained in the fruit word.
+
+* Every incorrect guess adds to the letters tried, a correct guess adds to the hidden word, revealing the location of the correctly guessed letter in the fruit word.
+
+* A hangman board displays with the number of guesses left, with a win or lose message.
 
 ## User Experience
 
