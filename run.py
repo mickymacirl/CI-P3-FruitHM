@@ -288,10 +288,10 @@ def instructions():
         clear()
         logo_display()
         game_yn()
-        see_instructions()
+        main()
 
 
-def see_instructions():
+def main():
     """This fuction asks the player if they want to read the instructions
     Chooosing N will start the game
     If not y, n, q display instructions"""
@@ -299,9 +299,8 @@ def see_instructions():
     logo_display()
     print(f"{Fore.YELLOW}Welcome to Hangman, the Fruit Edition(TM)\n")
     game_title()
-    print("Please wait")
-    print("Game Loading.")
-    time.sleep(1)
+    print("Please Wait! Game Loading.")
+    time.sleep(2)
     delete_last_line()
     print(f"{Fore.RED}Drawing HANGMAN Board.")
     time.sleep(0.5)
@@ -368,8 +367,8 @@ def see_instructions():
         clear()
         logo_display()
         instructions_yn()
-        see_instructions()
+        main()
 
 
 clear()
-see_instructions()
+main()
