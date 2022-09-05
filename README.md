@@ -65,6 +65,63 @@ As a Site Administrator I want to:
 
 ![Game Title Readme](./assets/readme/gametitlerm.jpg)
 
+### Game Loading
+
+* Game Loading uses the time function in conjunction with the delete last line function to display a game loading screen on the welcome screen. 
+
+def game_loading():
+    clear()
+    logo_display()
+    print(f"{Fore.YELLOW}Welcome to Hangman, the Fruit Edition(TM)\n")
+    game_title()
+    print("Please Wait! Game Loading.")
+    time.sleep(2)
+    delete_last_line()
+    print(f"{Fore.RED}Drawing HANGMAN Board.")
+    time.sleep(0.5)
+    delete_last_line()
+    print(f"{Fore.RED}Drawing HANGMAN Board..")
+    time.sleep(1)
+    delete_last_line()
+    print(f"{Fore.RED}Drawing HANGMAN Board...")
+    time.sleep(0.5)
+    delete_last_line()
+    print(f"{Fore.RED}Drawing HANGMAN Board....")
+    time.sleep(0.5)
+    delete_last_line()
+    print(f"{Fore.MAGENTA}HANGMAN Board Done!")
+    time.sleep(1)
+    delete_last_line()
+    print("Game Loading..")
+    time.sleep(0.5)
+    delete_last_line()
+    print(f"{Fore.RED}Calculating draw distance.")
+    time.sleep(1)
+    delete_last_line()
+    print("Game Loading...")
+    time.sleep(1)
+    delete_last_line()
+    print(f"{Fore.RED}Generating Random Fruit Word.")
+    time.sleep(1.5)
+    delete_last_line()
+    print("Game Loading....")
+    time.sleep(0.5)
+    delete_last_line()
+    print(f"{Fore.MAGENTA}Fruit Word Selected!")
+    time.sleep(0.5)
+    delete_last_line()
+    print("Game Loading.....")
+    time.sleep(0.5)
+    delete_last_line()
+    print("Game Loading......")
+    time.sleep(0.5)
+    delete_last_line()
+    print("Game Loading.......")
+    time.sleep(0.5)
+    delete_last_line()
+    print(f"{Fore.MAGENTA}Complete! Game Ready!")
+    print("")
+
 ## Features to Implement
 
 ## Design
