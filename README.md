@@ -69,6 +69,8 @@ As a Site Administrator I want to:
 
 * Game Loading uses the time function in conjunction with the delete last line function to display a game loading screen on the welcome screen.
 
+![Please Wait](./assets/readme/pqrm1.jpg)
+
         def game_loading():
             clear() # clear screen
             logo_display() # display logo
