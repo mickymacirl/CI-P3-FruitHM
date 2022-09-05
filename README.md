@@ -124,6 +124,8 @@ As a Site Administrator I want to:
             print(f"{Fore.MAGENTA}Complete! Game Ready!")  # display text
             print("")
 
+![Complete](./assets/readme/pqrm2.jpg)
+
 ## Features to Implement
 
 ## Design
