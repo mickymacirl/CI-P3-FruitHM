@@ -126,6 +126,12 @@ As a Site Administrator I want to:
 
 ![Complete](./assets/readme/pqrm2.jpg)
 
+### Read Instructions
+
+* Game displays the message, "Do you want to read the instructions? Y, N or Q. Choosing Y, brings you to view the instructions and both N and Q quit the game.
+
+![Instructions](./assets/readme/insrm.jpg)
+
 ## Features to Implement
 
 ## Design
