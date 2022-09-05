@@ -291,10 +291,8 @@ def instructions():
         main()
 
 
-def main():
-    """This fuction asks the player if they want to read the instructions
-    Chooosing N will start the game
-    If not y, n, q display instructions"""
+def game_loading():
+    ''' This function produces a Game Loading time moving text line '''
     clear()
     logo_display()
     print(f"{Fore.YELLOW}Welcome to Hangman, the Fruit Edition(TM)\n")
@@ -346,7 +344,14 @@ def main():
     delete_last_line()
     print(f"{Fore.MAGENTA}Complete! Game Ready!")
     print("")
+
+
+def main():
+    """This fuction asks the player if they want to read the instructions
+    Chooosing N will start the game
+    If not y, n, q display instructions"""
     user_input = input(
+
         f"{Fore.YELLOW}" + "Do you want to read the instructions? Y, N or Q:\n"
     ).lower()
     if user_input == "y":
