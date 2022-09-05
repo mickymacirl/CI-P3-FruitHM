@@ -29,6 +29,24 @@ If the player draws all body parts and the word still hasn't been found, the pla
 
 * A hangman board displays with the number of guesses left, with a win or lose message.
 
+HANGMAN: Fruit Edition(TM)
+ +->------+
+ |       <|     +---------+
+ Q        |>    |    5    |
+/|        |>    +  tries  +
+          |>    |  left   |
+          |>    +---------+
+<=========>
+~-----------------------------------------~
+Letters tried: y u i
+~-----------------------------------------~
+The word has 5 letters:
+~ a n ~ o
+
+~-----------------------~
+Pick a letter of a fruit?
+~-----------------------~
+
 ## User Experience
 
 ## Features
