@@ -146,11 +146,13 @@ As a Site Administrator I want to:
 
 ### Main Game
 
-* The main game screen displays the hangman board, with current hangman position and number of tries left.
-* Next, letters tried supplies the already tried letters.
-* The number of letters in the fruit word is displayed.
-* '~' is used to space out the missing and already guessed letters.
-* Game displays a message asking the player to Pick a letter of a fruit.
+* The main game screen displays the hangman board, with current hangman position and number of tries left. (1 and 2)
+* Letters tried supplies the already and incorrect tried letters. (3)
+* The number of letters in the fruit word is displayed. (4)
+* '~' is used to space out the missing and already guessed letters. (4)
+* Game displays a message asking the player to Pick a letter of a fruit. (5)
+
+![Main Game Board](./assets/readme/mainboardrm.jpg)
 
 ## Features to Implement
 
