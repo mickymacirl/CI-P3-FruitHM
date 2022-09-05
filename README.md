@@ -128,9 +128,21 @@ As a Site Administrator I want to:
 
 ### Read Instructions
 
-* Game displays the message, "Do you want to read the instructions? Y, N or Q. Choosing Y, brings you to view the instructions and both N and Q quit the game.
+* Game displays the message, "Do you want to read the instructions? Y, N or Q.
+* Choosing Y brings you to view the instructions.
+* Choosing N brings you to the main game.
+* Choosing Q quits the game.
 
 ![Instructions](./assets/readme/instrm.jpg)
+
+### Game Instructions
+
+* Game displays the game instructions, including the number of guesses a player gets.
+* Game displays, "Do you want to play? Y, N, Q.
+* Choosing Y brings you to the main game.
+* Choosing N or Q quits the game.
+
+
 
 ## Features to Implement
 
