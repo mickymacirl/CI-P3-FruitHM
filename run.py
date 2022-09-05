@@ -170,10 +170,7 @@ def main_game():
         if guessed in random_word_from_list:
             correct_guess = correct_guess + guessed
             have_all_letters = True
-#            for i in range(len(random_word_from_list)):
-#                if random_word_from_list[i] not in correct_guess:
-#                    have_all_letters = False
-#                    break
+
             for k_r, v_r in enumerate(random_word_from_list):
                 if v_r not in correct_guess:
                     print(k_r)  # print then clear
