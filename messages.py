@@ -39,7 +39,7 @@ def game_title():
         "draw an arm, leg, head or torso of a stick figure hanging from \n"
         "gallows for every incorrect guess.\n\nIf players draw all body "
         "parts and the word still "
-        "hasnt\nbeen spelled out, the players lose.\n"
+        "hasnt\nbeen spelled out, the player loses.\n"
     )
 
 
