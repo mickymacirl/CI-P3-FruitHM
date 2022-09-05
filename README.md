@@ -49,6 +49,8 @@ Pick a letter of a fruit?
 
 ## User Experience
 
+### User Stories
+
 This game aims to give the user a straightforward, attractive, understandable, and repeatedly playable experience.
 
 As a User, I want to:
@@ -67,15 +69,11 @@ As a Site Administrator I want to:
 * have the random text file, player messages, and images separated into different files to facilitate easy editing
 * offer the player a straightforward and understandable game
 
-### Program Goals
-
-### User Stories
-
 ## Features
 
 ### Logo
 
-* Pyfiglet is installed and used to import pyfiglet, which generates the Hangman text using the standard font. The cybersmall font was used for the secondary text, with centred yellow text. A logo-display function was created and stored within the messages.py file and imported for use when needed.
+* Pyfiglet is installed and used to import pyfiglet, which generates the Hangman text using the standard font. The cybersmall font was used for the secondary text, with centred yellow text. A logo-display function was created and stored within the art.py file and imported for use when needed.
 
 ![Logo Readme](./assets/readme/logorm.jpg)
 
