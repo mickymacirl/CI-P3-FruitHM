@@ -114,7 +114,7 @@ As a Site Administrator I want to:
             time.sleep(0.5) # sleep for .5 of a second
             delete_last_line() # delete last line and move up
             print("Game Loading......") # display text
-            time.sleep(0.5) # delete last line and move up
+            time.sleep(0.5) # sleep for .5 of a second
             delete_last_line() # delete last line and move up
             print("Game Loading.......") # display text
             time.sleep(0.5) # sleep for .5 of a second
