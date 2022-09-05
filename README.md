@@ -234,6 +234,10 @@ Some helpful tutorials that were reference to help with coding some of the desig
 
 * Used *[7esl.com](https://7esl.com/fruits-vocabulary-english/)* for fruit words to use in words.py.
 
+### Flow Chart
+
+* Used *[Lucidchart](https://www.lucidchart.com/pages/)* to create flow chart.
+
 ## Reminders
 
 * Your code must be placed in the `run.py` file
