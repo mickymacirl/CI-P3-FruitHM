@@ -49,6 +49,24 @@ Pick a letter of a fruit?
 
 ## User Experience
 
+This game aims to give the user a straightforward, attractive, understandable, and repeatedly playable experience.
+
+As a User, I want to:
+
+* play the game clearly across different devices
+* play an attractive game with movement
+* understand how to play the game
+* have the choice to easily play again or quit
+* alert to incorrect input
+* know what incorrect input has been input
+* know how many attempts are have left
+* play a game that is not timed
+
+
+### Program Goals
+
+### User Stories
+
 ## Features
 
 ### Logo
