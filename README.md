@@ -144,6 +144,14 @@ As a Site Administrator I want to:
 
 ![Game Instructions](./assets/readme/gameinstrm.jpg)
 
+### Main Game
+
+* The main game screen displays the hangman board, with current hangman position and number of tries left.
+* Next, letters tried supplies the already tried letters.
+* The number of letters in the fruit word is displayed.
+* '~' is used to space out the missing and already guessed letters.
+* Game displays a message asking the player to Pick a letter of a fruit.
+
 ## Features to Implement
 
 ## Design
