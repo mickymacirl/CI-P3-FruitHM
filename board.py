@@ -1,5 +1,5 @@
 """ This is the styling for the game board
-    This function displays the game board with 8 tries.
+    This function displays the game board with 8 tries/lines.
 """
 
 board = [
