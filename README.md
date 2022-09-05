@@ -74,7 +74,7 @@ As a Site Administrator I want to:
         def game_loading():
             clear() # clear screen
             logo_display() # display logo
-            print(f"{Fore.YELLOW}Welcome to Hangman, the Fruit Edition(TM)\n") # display title to screen
+            print(f"{Fore.YELLOW}Welcome to Hangman, the Fruit Edition(TM)\n") # display text
             game_title() # write game title text to screen
             print("Please Wait! Game Loading.") # display text
             time.sleep(2) # sleep for 2 seconds
