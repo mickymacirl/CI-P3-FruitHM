@@ -54,14 +54,13 @@ This game aims to give the user a straightforward, attractive, understandable, a
 As a User, I want to:
 
 * play the game clearly across different devices
-* play an attractive game with movement
+* play an attractive game
 * understand how to play the game
 * have the choice to easily play again or quit
 * alert to incorrect input
 * know what incorrect input has been input
-* know how many attempts are have left
+* know how many attempts are left
 * play a game that is not timed
-
 
 ### Program Goals
 
