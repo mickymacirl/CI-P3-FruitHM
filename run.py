@@ -286,7 +286,17 @@ def instructions():
     else:
         clear()
         logo_display()
-        game_yn()
+        print(f"{Fore.YELLOW}~-------------------------------~".center(80))
+        print()
+        check_guess = f"{Fore.RED}'" + user_input + "' is incorrect!"
+        i = check_guess.center(79, " ")
+        print(i)
+        print()
+        print()
+        print(f"{Fore.RED}Game starting again..".center(82))
+        print()
+        print(f"{Fore.YELLOW}~-------------------------------~".center(80))
+        time.sleep(4)
         main()
 
 
@@ -349,7 +359,7 @@ def main():
     """This fuction asks the player if they want to read the instructions
     Chooosing N will start the game
     If not y, n, q display instructions"""
-    game_loading()
+    # game_loading()
     user_input = input(
 
         f"{Fore.YELLOW}" + "Do you want to read the instructions? Y, N or Q:\n"
