@@ -147,6 +147,11 @@ def play_again():
     else:
         clear()
         logo_display()
+        print()
+        check_guess = f"{Fore.RED}'" + user_input + "' is incorrect!"
+        i = check_guess.center(83, " ")
+        print(i)
+        print()
         game_yn()
         play_again()
 
