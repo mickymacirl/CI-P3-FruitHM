@@ -216,8 +216,6 @@ logo-display, causing the logo to be yellow.
 
         def instructions():
             clear()
-            print(Fore.RESET)  # reset color
-            delete_last_line()
             logo_display()
             game_rules()
             user_input = input(
