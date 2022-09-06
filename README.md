@@ -209,7 +209,7 @@ Using for k_r, v_r because enumerate returns the count and the value, not just t
 
 ### Color Bleed
 
-The see_instructions fuction user input color was bleeding into the instructions function
+The main fuction user input color was bleeding into the instructions function
 logo-display, causing the logo to be yellow.
 
 ![Color Bleed](./assets/readme/colorbleedrm.jpg)
