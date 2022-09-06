@@ -306,7 +306,7 @@ def instructions():
         delete_last_line()
         print(f"{Fore.RED}Game starting again....".center(86))
         print()
-        time.sleep(4)
+        time.sleep(2)
         main()
 
 
@@ -408,6 +408,7 @@ def main():
         delete_last_line()
         print(f"{Fore.RED}Game starting again....".center(86))
         print()
+        time.sleep(2)
         main()
 
 
