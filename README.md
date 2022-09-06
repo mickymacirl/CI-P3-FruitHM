@@ -214,34 +214,26 @@ logo-display, causing the logo to be yellow.
 
 ![Color Bleed](./assets/readme/colorbleedrm.jpg)
 
-    def instructions():
-        clear()
-        logo_display()
-        game_rules()
-        user_input = input(
+        def instructions():
+            clear()
+            print(Fore.RESET)  # reset color
+            delete_last_line()
+            logo_display()
+            game_rules()
+            user_input = input(
             f"{Fore.YELLOW}" + f"Do you want to play? Y, N or Q:{Fore.RESET}\n"
-        ).lower()
-        if user_input == "y":
-            clear()
-            main_game()
+            ).lower()
+            if user_input == "y":
+                clear()
+                main_game()
 
-        elif user_input == "n":
-            clear()
-            logo_display()
-            exit_message()
-            exit()
-
-        elif user_input == "q":
-            clear()
-            logo_display()
-            exit_message()
-            exit()
-
-        else:
-            clear()
-            logo_display()
-            game_yn()
-            see_instructions()
+            elif user_input == "n":
+                clear()
+                print(Fore.RESET)  # reset color
+                delete_last_line()
+                logo_display()
+                exit_message()
+                exit()    
 
 Added a Fore.RESET print and created a delete_last_line fuction to delete last line to clear color bleed.
 
