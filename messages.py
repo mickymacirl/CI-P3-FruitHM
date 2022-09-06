@@ -65,7 +65,7 @@ def game_pick():
 def game_yn():
     """ This fuction displays the yes or no option """
     print(f"{Fore.YELLOW}~----------------------------------~\n".center(85))
-    print(f"{Fore.RED}Please choose Y to play or N to quit.\n".center(86))
+    print(f"{Fore.RED}Please choose Y to play or N to quit.\n".center(87))
     print(f"{Fore.YELLOW}~----------------------------------~\n".center(85))
 
 
