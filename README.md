@@ -4,7 +4,7 @@ In this game, HANGMAN: The Fruit Edition(TM), players try to guess all letters o
 
 This game is based on the Hangman, pen and paper game that possibly stretches back to the 1890s.
 
-Stories claim that criminals sentenced to death by hanging could demand the "Rite of Words and Life."
+Stories claim that criminals sentenced to death by hanging could demand the *"Rite of Words and Life."*
 
 First, the Executioner would pick a five-letter word, marking correctly guessed letters on the dashes of a board. Then, at every incorrect guess, the Executioner would use a sledgehammer or axe to knock away a single leg of the stand. With five wrong guesses, the criminal was hung.
 If the entire word were filled in correctly or guessed, the condemned would be set free from that sentence and not tried again for that crime. The irony was that almost all of those criminals were illiterate.
