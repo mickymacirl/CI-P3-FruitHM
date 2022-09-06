@@ -13,7 +13,6 @@ from messages import game_title  # import game_title from messages.py
 from messages import game_rules  # import game_rules from messages.py
 from messages import game_pick  # import game_rules from messages.py
 from messages import game_yn  # import game_yn from messages.py
-# from messages import instructions_yn  # import instructions from messages.py
 from messages import game_win  # import game_win from messages.py
 from messages import game_loss  # import game_loss from messages.pyS
 
@@ -273,12 +272,16 @@ def instructions():
 
     elif user_input == "n":
         clear()
+        print(Fore.RESET)  # reset color
+        delete_last_line()
         logo_display()
         exit_message()
         exit()
 
     elif user_input == "q":
         clear()
+        print(Fore.RESET)  # reset color
+        delete_last_line()
         logo_display()
         exit_message()
         exit()
