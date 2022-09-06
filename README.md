@@ -72,56 +72,57 @@ As a Site Administrator I want to:
 ![Please Wait](./assets/readme/pqrm1.jpg)
 
         def game_loading():
-            clear() # clear screen
-            logo_display() # display logo
-            print(f"{Fore.YELLOW}Welcome to Hangman, the Fruit Edition(TM)\n") # display text
-            game_title() # write game title text to screen
-            print("Please Wait! Game Loading.") # display text
-            time.sleep(2) # sleep for 2 seconds
-            delete_last_line() # delete last line and move up
-            print(f"{Fore.RED}Drawing HANGMAN Board.") # display text
-            time.sleep(0.5) # sleep for .5 of a second
-            delete_last_line() # delete last line and move up
-            print(f"{Fore.RED}Drawing HANGMAN Board..") # display text
-            time.sleep(1) # sleep for 1 second
-            delete_last_line() # delete last line and move up
-            print(f"{Fore.RED}Drawing HANGMAN Board...") # display text
-            time.sleep(0.5) # sleep for .5 of a second
-            delete_last_line() # delete last time and move up
-            print(f"{Fore.RED}Drawing HANGMAN Board....") # display text
-            time.sleep(0.5) # sleep for .5 of a second
-            delete_last_line() # delete last line and move up
-            print(f"{Fore.MAGENTA}HANGMAN Board Done!") # display text
-            time.sleep(1) # sleep for 1 second
-            delete_last_line() # delete last line and move up
-            print("Game Loading..") # display text
-            time.sleep(0.5) # sleep for .5 of a second
-            delete_last_line() # delete last line and move up
-            print(f"{Fore.RED}Calculating draw distance.") # display text
-            time.sleep(1) # sleep for 1 second
-            delete_last_line() # delete last line and move up
-            print("Game Loading...") # display text
-            time.sleep(1) # sleep for 1 second
-            delete_last_line() # delete last line and move up
-            print(f"{Fore.RED}Generating Random Fruit Word.") # display text
-            time.sleep(1.5) # sleep for 1.5 seconds
-            delete_last_line() # delete last line and move up
-            print("Game Loading....") # display text
-            time.sleep(0.5) # sleep for .5 of a second
-            delete_last_line() # delete last line and move up
-            print(f"{Fore.MAGENTA}Fruit Word Selected!") # display text
-            time.sleep(0.5) # sleep for .5 of a second
-            delete_last_line() # delete last line and move up
-            print("Game Loading.....") # display text
-            time.sleep(0.5) # sleep for .5 of a second
-            delete_last_line() # delete last line and move up
-            print("Game Loading......") # display text
-            time.sleep(0.5) # sleep for .5 of a second
-            delete_last_line() # delete last line and move up
-            print("Game Loading.......") # display text
-            time.sleep(0.5) # sleep for .5 of a second
-            delete_last_line() # delete last line and move up
-            print(f"{Fore.MAGENTA}Complete! Game Ready!")  # display text
+            ''' This function produces a Game Loading time moving text line '''
+            clear()
+            logo_display()
+            print(f"{Fore.YELLOW}Welcome to Hangman, the Fruit Edition(TM)\n")
+            game_title()
+            print("Please Wait! Game Loading.")
+            time.sleep(1)
+            delete_last_line()
+            print(f"{Fore.RED}Drawing HANGMAN Board.")
+            time.sleep(0.5)
+            delete_last_line()
+            print(f"{Fore.RED}Drawing HANGMAN Board..")
+            time.sleep(1)
+            delete_last_line()
+            print(f"{Fore.RED}Drawing HANGMAN Board...")
+            time.sleep(0.5)
+            delete_last_line()
+            print(f"{Fore.RED}Drawing HANGMAN Board....")
+            time.sleep(0.5)
+            delete_last_line()
+            print(f"{Fore.MAGENTA}HANGMAN Board Done!")
+            time.sleep(1)
+            delete_last_line()
+            print("Game Loading..")
+            time.sleep(0.5)
+            delete_last_line()
+            print(f"{Fore.RED}Calculating draw distance.")
+            time.sleep(1)
+            delete_last_line()
+            print("Game Loading...")
+            time.sleep(1)
+            delete_last_line()
+            print(f"{Fore.RED}Generating Random Fruit Word.")
+            time.sleep(1.0)
+            delete_last_line()
+            print("Game Loading....")
+            time.sleep(0.2)
+            delete_last_line()
+            print(f"{Fore.MAGENTA}Fruit Word Selected!")
+            time.sleep(0.5)
+            delete_last_line()
+            print("Game Loading.....")
+            time.sleep(0.5)
+            delete_last_line()
+            print("Game Loading......")
+            time.sleep(0.5)
+            delete_last_line()
+            print("Game Loading.......")
+            time.sleep(0.2)
+            delete_last_line()
+            print(f"{Fore.MAGENTA}Complete! Game Ready!")
             print("")
 
 ![Complete](./assets/readme/pqrm2.jpg)

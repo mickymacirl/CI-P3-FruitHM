@@ -374,7 +374,7 @@ def main():
     """This fuction asks the player if they want to read the instructions
     Chooosing N will start the game
     If not y, n, q display instructions"""
-    game_loading()
+    # game_loading()
     user_input = input(
 
         f"{Fore.YELLOW}" + "Do you want to read the instructions? Y, N or Q:\n"
