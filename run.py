@@ -389,6 +389,8 @@ def main():
         exit()
 
     else:
+        print(Fore.RESET)  # reset color
+        delete_last_line()
         clear()
         logo_display()
         print()
