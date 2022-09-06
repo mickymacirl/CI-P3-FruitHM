@@ -317,7 +317,7 @@ def game_loading():
     print(f"{Fore.YELLOW}Welcome to Hangman, the Fruit Edition(TM)\n")
     game_title()
     print("Please Wait! Game Loading.")
-    time.sleep(2)
+    time.sleep(1)
     delete_last_line()
     print(f"{Fore.RED}Drawing HANGMAN Board.")
     time.sleep(0.5)
@@ -344,10 +344,10 @@ def game_loading():
     time.sleep(1)
     delete_last_line()
     print(f"{Fore.RED}Generating Random Fruit Word.")
-    time.sleep(1.5)
+    time.sleep(1.0)
     delete_last_line()
     print("Game Loading....")
-    time.sleep(0.5)
+    time.sleep(0.2)
     delete_last_line()
     print(f"{Fore.MAGENTA}Fruit Word Selected!")
     time.sleep(0.5)
@@ -359,7 +359,7 @@ def game_loading():
     time.sleep(0.5)
     delete_last_line()
     print("Game Loading.......")
-    time.sleep(0.5)
+    time.sleep(0.2)
     delete_last_line()
     print(f"{Fore.MAGENTA}Complete! Game Ready!")
     print("")
@@ -369,7 +369,7 @@ def main():
     """This fuction asks the player if they want to read the instructions
     Chooosing N will start the game
     If not y, n, q display instructions"""
-    # game_loading()
+    game_loading()
     user_input = input(
 
         f"{Fore.YELLOW}" + "Do you want to read the instructions? Y, N or Q:\n"
