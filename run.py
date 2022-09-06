@@ -371,7 +371,17 @@ def main():
     else:
         clear()
         logo_display()
-        instructions_yn()
+        print(f"{Fore.YELLOW}~-------------------------------~".center(80))
+        print()
+        check_guess = f"{Fore.RED}'" + user_input + "' is incorrect!"
+        i = check_guess.center(79, " ")
+        print(i)
+        print()
+        print()
+        print(f"{Fore.RED}Game starting again..".center(82))
+        print()
+        print(f"{Fore.YELLOW}~-------------------------------~".center(80))
+        time.sleep(4)
         main()
 
 
