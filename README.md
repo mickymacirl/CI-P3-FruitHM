@@ -200,17 +200,21 @@ Input is from the question, Do you want to want to read the instructions? Y, N, 
 **@@ symbols**
 ![Instructions Option Testing symbol](./assets/readme/readinstestrm1.jpg)
 
-### Play Again
+### Play Again Option Screen
 
-**Expected:** Any input outside of Y for Yes, No for No, or Quit for Quit returns an error.
+    **Expected:** Any input outside of Y for Yes, No for No, or Quit for Quit returns an error.
 
-**Actual:** Any input out Y for Yes, No for No, or Q for Quit returned an error.
+    **Actual:** Any input out Y for Yes, No for No, or Q for Quit returned an error.
 
-**nn text string**
+    **nn text string**
+
 ![Instructions Option Testing Text](./assets/readme/readinstestrm2.jpg)
 
-**@@ symbols**
+    **@@ symbols**
+
 ![Instructions Option Testing symbol](./assets/readme/readinstestrm3.jpg)
+
+### Main Game Input Error Checking
 
 ## Bugs and Fixes
 
