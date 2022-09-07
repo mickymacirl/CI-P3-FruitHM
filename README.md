@@ -198,7 +198,7 @@ Input is from the question, Do you want to want to read the instructions? Y, N, 
 ![Instructions Option Testing Text](./assets/readme/readinstestrm.jpg)
 
 **@@ symbols**
-![Instructions Option Testing symbol](./assets/readme/readinstestrm1.jpg)
+![Instructions Option Testing symbol](./assets/readme/readinstest1rm.jpg)
 
 ### Play Again Option Screen
 
