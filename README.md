@@ -240,7 +240,15 @@ Input is a letter already guessed from the correct guessed letter display.
 
 ![Game Input Already Guessed Testing](./assets/readme/readinstest5rm.jpg)
 
+#### Main Game Not In The Alphabeta
 
+Input is a special character, or a number.
+
+**Expected:** Any input that is a special character or a number returns an error.
+
+**Actual:** The special character returned an error.
+
+![Game Input Already Guessed Testing](./assets/readme/readinstest6rm.jpg)
 
 ## Bugs and Fixes
 
