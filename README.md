@@ -417,6 +417,10 @@ Pip3 freeze > requirements.txt was used to add imports for pyfiglet, termcolor a
 
 * Used *[Code Burst.io](https://codeburst.io/building-beautiful-command-line-interfaces-with-python-26c7e1bb54df)* for reference.
 
+### Python Cheat Sheet
+
+* Used *[Python Cheat Sheet.org](https://www.pythoncheatsheet.org/)* for reference.
+
 ### Tutorials
 
 Some helpful tutorials that were a reference to help with coding some of the design and structure:
