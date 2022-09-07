@@ -358,21 +358,21 @@ The steps for deployment are outlined in the Code Institute Template referenced 
 
 Pip3 freeze > requirements.txt was used to add imports for pyfiglet, termcolor and Colorama prior to deployment to Heroku.
 
-1. Open an existing Heroku account or create a new one.  
-2. Next, choose to Create New App from the drop-down menu and the New button on the dashboard's upper right corner.
+1. Open an existing **Heroku** account or create a new one.  
+2. Next, choose to **Create New App** from the drop-down menu and the New button on the dashboard's upper right corner.
 3. You have to enter a distinct app name.
-4. Next, please select your region (I chose Europe as I am in Ireland).
-5. Click on the Create App button.
-6. The project's Deploy Tab will appear on the following page.
-7. Config Vars is located after selecting the Settings Tab.
-8. Click Reveal Config Vars, type port and 8000 into the Key and Value boxes, and then click Add.
-9. Next, click Add Buildpack in the Buildpack section, choose Python, and then click Save Changes.
-10. Next, click Add Buildpack in the Buildpack section, choose Node.js, and then click Save Changes
-11. Scroll to the top of the page and now choose the Deploy tab.
-12. Select GitHub.
-13. Connect to GitHub.
+4. Next, please select your region.
+5. Click on the **Create App button**.
+6. The project's **Deploy Tab** will appear on the following page.
+7. **Config Vars** is located after selecting the **Settings Tab**.
+8. Click **Reveal Config Vars**, type **port** and **8000** into the Key and Value boxes, and then click **Add**.
+9. Next, click **Add Buildpack** in the Buildpack section, choose **Python**, and then click **Save Changes**.
+10. Next, click **Add Buildpack** in the Buildpack section, choose **Node.js**, and then click **Save Changes**.
+11. Scroll to the top of the page and now choose the **Deploy tab**.
+12. Select **GitHub**.
+13. Connect to **GitHub**.
 14. Search for the repository name and choose the connect button.
-15. Select the deploy button at the bottom of the page and select the preferred deployment type, Automatic or Manual Deploys.
+15. Select the **Deploy** button at the bottom of the page and select the preferred deployment type, **Automatic** or **Manual Deploys**.
 
 ## Credits
 
