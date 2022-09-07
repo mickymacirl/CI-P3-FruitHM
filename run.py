@@ -106,14 +106,6 @@ def get_guess(already_guessed):
             print(i)
             print(f"{Fore.RED}Choose another letter!".center(80))
             print(f"{Fore.YELLOW}~-------------------------------~".center(80))
-        elif guessed in already_guessed:
-            logo_display()
-            print(f"{Fore.YELLOW}~-------------------------------~".center(80))
-            check_guess = f"{Fore.RED}'" + guessed + "' is already used!"
-            i = check_guess.center(79, " ")
-            print(i)
-            print(f"{Fore.RED}Choose another letter!".center(80))
-            print(f"{Fore.YELLOW}~-------------------------------~".center(80))
         else:
 
             return guessed
