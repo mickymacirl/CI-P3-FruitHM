@@ -152,6 +152,12 @@ As a Site Administrator, I want to:
 
 ## Features to Implement
 
+* This game it would be useful to have a high scores and username option.
+
+* This game could be made harder for different levels, and the word number could be increased or fewer attempts given.
+
+* Expand the game and allow users to choose words based on a type of fruit or rare fruit.
+
 ## Design
 
 ### Flow Chart
@@ -319,7 +325,7 @@ Added a Fore.RESET print and created a delete_last_line function to delete last 
 
 ### Version Control
 
-Both *[Visual Studio](https://visualstudio.microsoft.com/)* code editor and *[GitPod](https://gitpod.io/workspaces)* were used to create this site and then pushed to the GitHub remote repository named ‘*[CI-P3-FruitHM](https://github.com/mickymacirl/CI-P3-FruitHM)*’.
+Both *[Visual Studio](https://visualstudio.microsoft.com/)* code editor and *[GitPod](https://gitpod.io/workspaces)* were used to create this site and then pushed to the **GitHub** remote repository named ‘*[CI-P3-FruitHM](https://github.com/mickymacirl/CI-P3-FruitHM)*’.
 
 The following commands were used to push code to the remote repository:
 
@@ -327,7 +333,7 @@ The following commands were used to push code to the remote repository:
 
 2. *git commit -m “commit message”* was used to add the changes to the local repository for upload during a push.
 
-3. *git push* was used to push all local changes to the remote repository on GitHub.
+3. *git push* was used to push all local changes to the remote repository on **GitHub**.
 
 ### Deploying New Changes
 
