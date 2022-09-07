@@ -180,6 +180,12 @@ As a Site Administrator I want to:
 
 ## Testing
 
+* Lines that were excessively long, abnormalities with spacing, and single- or double-line spacing were all addressed as they surfaced. As a consequence, the code was generally clean and devoid of errors and defects when final testing began.
+
+* To enable the player understand why their decision was incorrect, all user inputs were validated and printed back to the screen.
+
+* Techniques like print() were used to check for flaws as the code was being created. Authors were able to verify that everything was operating as it should and that functions like selecting a random word from words.py were correctly displayed as a result.
+
 ## Bugs and Fixes
 
 ### PYLINT Error when using range length line 176
