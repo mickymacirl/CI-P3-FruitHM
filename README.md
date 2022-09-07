@@ -220,7 +220,7 @@ Input is from the question, Do you want to Play Again?
 
 ### Main Game Input Error Checking
 
-Input is a single letter in the alphabet.
+Input is a double letter in the alphabet.
 
 **Expected:** Any input outside of a single letter of the alphabet returns an error.
 
