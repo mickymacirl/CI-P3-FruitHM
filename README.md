@@ -354,7 +354,7 @@ Below are the steps required:
 1. Go to the page of the repository that you want to clone, the **CI-P3-FruitHM GitHub** site: *[here](https://github.com/mickymacirl/CI-P3-FruitHM)*
 2. Click on the **“Code”** menu and copy the URL.
 3. Use the git clone command along with the copied URL.
-4. git clone *[https://github.com/USERNAME/REPOSITORY](https://github.com/USERNAME/REPOSITORY)
+4. git clone [https://github.com/USERNAME/REPOSITORY](https://github.com/USERNAME/REPOSITORY)
 
 ### Heroku Deployment
 
