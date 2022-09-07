@@ -317,7 +317,17 @@ Added a Fore.RESET print and created a delete_last_line fuction to delete last l
 
 * A repository called 'CI-P3-FruitHM' was created using the *[Code Institute Python Essentials Template](https://github.com/Code-Institute-Org/python-essentials-template)*.
 
-## Version Control
+### Version Control
+
+Both *[Visual Studio](https://visualstudio.microsoft.com/)* code editor and *[GitPod](https://gitpod.io/workspaces)* were used to create this site and then pushed to the GitHub remote repository named ‘*[CI-P3-FruitHM](https://github.com/mickymacirl/CI-P3-FruitHM)*’.
+
+The following commands were used to push code to the remote repository:
+
+1. *git add .* was used to stage all files for commit changes.
+
+2. *git commit -m “commit message”* was used to add the changes to the local repository for upload during a push.
+
+3. *git push* was used to push all local changes to the remote repository on GitHub.
 
 ## Credits
 
