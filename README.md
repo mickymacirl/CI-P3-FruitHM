@@ -202,15 +202,15 @@ Input is from the question, Do you want to want to read the instructions? Y, N, 
 
 ### Play Again Option Screen
 
-    **Expected:** Any input outside of Y for Yes, No for No, or Quit for Quit returns an error.
+**Expected:** Any input outside of Y for Yes, No for No, or Quit for Quit returns an error.
 
-    **Actual:** Any input out Y for Yes, No for No, or Q for Quit returned an error.
+**Actual:** Any input out Y for Yes, No for No, or Q for Quit returned an error.
 
-    **nn text string**
+#### nn text string
 
 ![Instructions Option Testing Text](./assets/readme/readinstest2rm.jpg)
 
-    **@@ symbols**
+#### @@ symbols
 
 ![Instructions Option Testing symbol](./assets/readme/readinstest3rm.jpg)
 
