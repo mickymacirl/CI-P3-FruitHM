@@ -227,10 +227,18 @@ Input is a single letter in the alphabet.
 **Actual:** A input outside of a single letter of the alphabet returned an error.
 #### Main Game Input Single Letter
 
-![Instructions Option Testing Text](./assets/readme/readinstest2rm.jpg)
-#### Main Game Input 
+![Game Input Single Letter Testing](./assets/readme/readinstest4rm.jpg)
+#### Main Game Input Already Guessed
 
-![Instructions Option Testing symbol](./assets/readme/readinstest3rm.jpg)
+Input is a letter already guessed from the correct guessed letter display.
+
+**Expected:** Any correctly guessed letter returns an error.
+
+**Actual:** The correctly guessed letter returned an error.
+
+![Game Input Already Guessed Testing](./assets/readme/readinstest5rm.jpg)
+
+
 
 ## Bugs and Fixes
 
