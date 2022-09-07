@@ -152,7 +152,7 @@ As a Site Administrator, I want to:
 
 ## Features to Implement
 
-* This game it would be useful to have a high scores and username option.
+* In this game it would be useful to have a high scores and username option.
 
 * This game could be made harder for different levels, and the word number could be increased or fewer attempts given.
 
