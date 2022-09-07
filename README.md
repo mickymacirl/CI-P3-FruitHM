@@ -194,10 +194,12 @@ Input is from the question, Do you want to want to read the instructions? Y, N, 
 
 **Actual:** Any input out Y for Yes, No for No, or Q for Quit returned an error.
 
-**nn text string**
+#### nn text string
+
 ![Instructions Option Testing Text](./assets/readme/readinstestrm.jpg)
 
-**@@ symbols**
+#### @@ symbols
+
 ![Instructions Option Testing symbol](./assets/readme/readinstest1rm.jpg)
 
 ### Play Again Option Screen
