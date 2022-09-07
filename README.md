@@ -225,9 +225,11 @@ Input is a single letter in the alphabet.
 **Expected:** Any input outside of a single letter of the alphabet returns an error.
 
 **Actual:** A input outside of a single letter of the alphabet returned an error.
+
 #### Main Game Input Single Letter
 
 ![Game Input Single Letter Testing](./assets/readme/readinstest4rm.jpg)
+
 #### Main Game Input Already Guessed
 
 Input is a letter already guessed from the correct guessed letter display.
