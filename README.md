@@ -184,6 +184,8 @@ As a Site Administrator I want to:
 
 * To enable the player understand why their decision was incorrect, all user inputs were validated and printed back to the screen.
 
+![Instructions Option Testing](./assets/readme/readinstestrm.jpg)
+
 * Techniques like print() were used to check for flaws as the code was being created. It possible to verify that everything was operating as it should and that functions like selecting a random word from words.py were correctly displayed as a result.
 
 ## Bugs and Fixes
