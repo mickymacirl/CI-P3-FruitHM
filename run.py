@@ -73,7 +73,8 @@ def get_guess(already_guessed):
     """This function askes for guess, and checks that guess is
     not greater than 1, display error message
     must be equal to letter
-    must not equal an already guessed letter"""
+    must not equal an already guessed letter
+    """
     while True:
         alphabet = "abcdefghijklmnopqrstuvwxyz"
         game_pick()
@@ -229,7 +230,7 @@ def main_game():
 
 def delete_last_line(one_line=1):
     '''' Delete last line function
-    for game start and color fix'''
+    for game loading screen and color fix'''
     up_one_line = '\x1b[1A'
     delete_line = '\x1b[2K'
     for _ in range(one_line):
@@ -243,7 +244,7 @@ def instructions():
     If they choose y, clear screen and call main_game
     If they choose n, clear the screen and display exit message
     If they choose q, clear the screen and display exit message
-    else call instructions again
+    start the game again
     """
     clear()
     print(Fore.RESET)  # reset color
@@ -355,7 +356,7 @@ def game_loading():
 def main():
     """This fuction asks the player if they want to read the instructions
     Chooosing N will start the game
-    If not y, n, q display instructions"""
+    If not y, n, q display restart the game"""
     game_loading()
     user_input = input(
 
