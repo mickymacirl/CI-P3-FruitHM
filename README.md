@@ -41,7 +41,7 @@ As a User, I want to:
 * know how many attempts are left
 * play a game that is not timed
 
-As a Site Administrator I want to:
+As a Site Administrator, I want to:
 
 * have the random text file, player messages, and images separated into different files to facilitate easy editing
 * offer the player a straightforward and understandable game
@@ -124,7 +124,7 @@ As a Site Administrator I want to:
 
 ### Read Instructions
 
-* Game displays the message, "Do you want to read the instructions? Y, N or Q.
+* The game displays the message, "Do you want to read the instructions? Y, N or Q.
 * Choosing Y brings you to view the instructions.
 * Choosing N brings you to the main game.
 * Choosing Q quits the game.
@@ -133,8 +133,8 @@ As a Site Administrator I want to:
 
 ### Game Instructions
 
-* Game displays the game instructions, including the number of guesses a player gets.
-* Game displays, "Do you want to play? Y, N, Q.
+* The game displays the game instructions, including the player's number of guesses.
+* The game displays, "Do you want to play? Y, N, Q.
 * Choosing Y brings you to the main game.
 * Choosing N or Q quits the game.
 
@@ -142,11 +142,11 @@ As a Site Administrator I want to:
 
 ### Main Game
 
-* The main game screen displays the hangman board, with current hangman position and number of tries left. (1 and 2)
+* The main game screen displays the hangman board, with the current hangman position and number of tries left. (1 and 2)
 * Letters tried supplies the already and incorrect tried letters. (3)
 * The number of letters in the fruit word is displayed. (4)
 * '~' is used to space out the missing and already guessed letters. (4)
-* Game displays a message asking the player to Pick a letter of a fruit. (5)
+* The game displays a message asking the player to pick a fruit's letter. (5)
 
 ![Main Game Board](./assets/readme/mainboardrm.jpg)
 
@@ -174,7 +174,7 @@ As a Site Administrator I want to:
 
 ### Others
 
-* Colorama was imported for use in coloring fonts and game bars in python fuctions.
+* Colorama was imported for use in coloring fonts and game bars in python functions.
 * Pyfiglet was used for adding ascii art to logo.
 * termcolor was used to highlight both win and loss message.py functions.
 
@@ -184,7 +184,7 @@ As a Site Administrator I want to:
 
 * Techniques like print() were used to check for flaws as the code was being created. It was possible to verify that everything was operating as it should and that functions like selecting a random word from words.py were correctly displayed as a result.
 
-* To enable the player understand why their decision was incorrect, all user inputs were validated and printed back to the screen.
+* To enable the player to understand why their decision was incorrect, all user inputs were validated and printed back to the screen.
 
 ### Instructions Option Screen
 
@@ -242,9 +242,9 @@ Input is a letter already guessed from the correct guessed letter display.
 
 #### Main Game Not In The Alphabeta
 
-Input is a special character, or a number.
+Input is a special character or a number.
 
-**Expected:** Any input that is a special character or a number returns an error.
+**Expected:** Any input with a special character or a number returns an error.
 
 **Actual:** The special character returned an error.
 
@@ -280,7 +280,7 @@ Using for k_r, v_r because enumerate returns the count and the value, not just t
 
 ### Color Bleed
 
-The main fuction user input color was bleeding into the instructions function
+The main function user input color was bleeding into the instructions function
 logo-display, causing the logo to be yellow.
 
 ![Color Bleed](./assets/readme/colorbleedrm.jpg)
@@ -304,7 +304,7 @@ logo-display, causing the logo to be yellow.
                 exit_message()
                 exit()    
 
-Added a Fore.RESET print and created a delete_last_line fuction to delete last line to clear color bleed.
+Added a Fore.RESET print and created a delete_last_line function to delete last line to clear color bleed.
 
 ![Color Bleed Fixed](./assets/readme/colorbleedfixedrm.jpg)
 
@@ -350,7 +350,7 @@ Below are the steps required:
 3. Use the git clone command along with the copied URL.
 4. git clone <https://github.com/USERNAME/REPOSITORY>
 
-### Heroku Deploment
+### Heroku Deployment
 
 This game is deployed via Heroku.
 
@@ -413,7 +413,7 @@ Pip3 freeze > requirements.txt was used to add imports for pyfiglet, termcolor a
 
 ### Tutorials
 
-Some helpful tutorials that were reference to help with coding some of the design and structure:
+Some helpful tutorials that were a reference to help with coding some of the design and structure:
 
 * *[Data Flair Hangman Game Python](https://data-flair.training/blogs/hangman-game-python-code/)*
 * *[Geeks for Geeks Hangman Game Python](https://www.geeksforgeeks.org/hangman-game-python/)*
@@ -430,4 +430,4 @@ Some helpful tutorials that were reference to help with coding some of the desig
 
 ### Flow Chart Creation
 
-* Used *[Lucidchart](https://www.lucidchart.com/pages/)* to create flow chart.
+* Used *[Lucidchart](https://www.lucidchart.com/pages/)* to create a flow chart.
