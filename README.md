@@ -208,11 +208,11 @@ Input is from the question, Do you want to want to read the instructions? Y, N, 
 
     **nn text string**
 
-![Instructions Option Testing Text](./assets/readme/readinstestrm2.jpg)
+![Instructions Option Testing Text](./assets/readme/readinstest2rm.jpg)
 
     **@@ symbols**
 
-![Instructions Option Testing symbol](./assets/readme/readinstestrm3.jpg)
+![Instructions Option Testing symbol](./assets/readme/readinstest3rm.jpg)
 
 ### Main Game Input Error Checking
 
