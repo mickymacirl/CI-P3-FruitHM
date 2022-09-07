@@ -11,7 +11,7 @@ If the entire word were filled in correctly or guessed, the condemned would be s
 
 The TV show Wheel of Fortune, based on the game, has been broadcast worldwide since the 1960s.
 
-View the live project here
+View the live project *[here](https://ci-p3-fruithm.herokuapp.com/)*
 
 ## How to Play
 
@@ -358,6 +358,22 @@ The steps for deployment are outlined in the Code Institute Template referenced 
 
 Pip3 freeze > requirements.txt was used to add imports for pyfiglet, termcolor and Colorama prior to deployment to Heroku.
 
+1. Open an existing Heroku account or create a new one.  
+2. Next, choose to Create New App from the drop-down menu and the New button on the dashboard's upper right corner.
+3. You have to enter a distinct app name.
+4. Next, please select your region (I chose Europe as I am in Ireland).
+5. Click on the Create App button.
+6. The project's Deploy Tab will appear on the following page.
+7. Config Vars is located after selecting the Settings Tab.
+8. Click Reveal Config Vars, type port and 8000 into the Key and Value boxes, and then click Add.
+9. Next, click Add Buildpack in the Buildpack section, choose Python, and then click Save Changes.
+10. Next, click Add Buildpack in the Buildpack section, choose Node.js, and then click Save Changes
+11. Scroll to the top of the page and now choose the Deploy tab.
+12. Select GitHub.
+13. Connect to GitHub.
+14. Search for the repository name and choose the connect button.
+15. Select the deploy button at the bottom of the page and select the preferred deployment type, Automatic or Manual Deploys.
+
 ## Credits
 
 ### History of Hangman
@@ -415,26 +431,3 @@ Some helpful tutorials that were reference to help with coding some of the desig
 ### Flow Chart Creation
 
 * Used *[Lucidchart](https://www.lucidchart.com/pages/)* to create flow chart.
-
-## Reminders
-
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
-
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the *Settings* tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a *Config Var* called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another *Config Var* called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
