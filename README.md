@@ -182,11 +182,35 @@ As a Site Administrator I want to:
 
 * Lines that were excessively long, abnormalities with spacing, and single- or double-line spacing were all addressed as they surfaced. As a consequence, the code was generally clean and devoid of errors and defects when final testing began.
 
+* Techniques like print() were used to check for flaws as the code was being created. It possible to verify that everything was operating as it should and that functions like selecting a random word from words.py were correctly displayed as a result.
+
 * To enable the player understand why their decision was incorrect, all user inputs were validated and printed back to the screen.
 
-![Instructions Option Testing](./assets/readme/readinstestrm.jpg)
+### Instructions Option Screen
 
-* Techniques like print() were used to check for flaws as the code was being created. It possible to verify that everything was operating as it should and that functions like selecting a random word from words.py were correctly displayed as a result.
+Input is from the question, Do you want to want to read the instructions? Y, N, or Q.
+
+**Expected:** Any input outside of Y for Yes, No for No, or Quit for Quit returns an error.
+
+**Actual:** Any input out Y for Yes, No for No, or Q for Quit returned an error.
+
+**nn text string**
+![Instructions Option Testing Text](./assets/readme/readinstestrm.jpg)
+
+**@@ symbols**
+![Instructions Option Testing symbol](./assets/readme/readinstestrm1.jpg)
+
+### Play Again
+
+**Expected:** Any input outside of Y for Yes, No for No, or Quit for Quit returns an error.
+
+**Actual:** Any input out Y for Yes, No for No, or Q for Quit returned an error.
+
+**nn text string**
+![Instructions Option Testing Text](./assets/readme/readinstestrm2.jpg)
+
+**@@ symbols**
+![Instructions Option Testing symbol](./assets/readme/readinstestrm3.jpg)
 
 ## Bugs and Fixes
 
