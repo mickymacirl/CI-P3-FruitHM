@@ -197,7 +197,7 @@ Error was "Consider using enumerate instead of iterating with range and lenpylin
                     have_all_letters = False
                     break
 
-No need to use range length, can just use enumerate to iterate over it.
+There is no need to use range length, can just use enumerate to iterate over it.
 
 Using for k_r, v_r because enumerate returns the count and the value, not just the current index.
 
