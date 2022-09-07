@@ -250,6 +250,12 @@ Input is a special character, or a number.
 
 ![Game Input Already Guessed Testing](./assets/readme/readinstest6rm.jpg)
 
+### Validator Testing
+
+The python files were verified using pep8 online. Every Python file was examined, and there were no mistakes found.
+
+![PIP8 Read Me](./assets/readme/pip8rm.jpg)
+
 ## Bugs and Fixes
 
 ### PYLINT Error when using range length line 176
