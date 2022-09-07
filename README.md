@@ -204,19 +204,33 @@ Input is from the question, Do you want to want to read the instructions? Y, N, 
 
 ### Play Again Option Screen
 
+Input is from the question, Do you want to Play Again?
+
 **Expected:** Any input outside of Y for Yes, No for No, or Quit for Quit returns an error.
 
 **Actual:** Any input out Y for Yes, No for No, or Q for Quit returned an error.
 
-#### nn text string
+#### Play Again nn text string
 
-![Instructions Option Testing Text](./assets/readme/readinstest2rm.jpg)
+![Play Again Option Testing Text](./assets/readme/readinstest2rm.jpg)
 
-#### @@ symbols
+#### Play Again @@ symbols
 
-![Instructions Option Testing symbol](./assets/readme/readinstest3rm.jpg)
+![Play Again Option Testing symbol](./assets/readme/readinstest3rm.jpg)
 
 ### Main Game Input Error Checking
+
+Input is a single letter in the alphabet.
+
+**Expected:** Any input outside of a single letter of the alphabet returns an error.
+
+**Actual:** A input outside of a single letter of the alphabet returned an error.
+#### Main Game Input Single Letter
+
+![Instructions Option Testing Text](./assets/readme/readinstest2rm.jpg)
+#### Main Game Input 
+
+![Instructions Option Testing symbol](./assets/readme/readinstest3rm.jpg)
 
 ## Bugs and Fixes
 
