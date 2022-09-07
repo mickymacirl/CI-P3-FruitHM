@@ -329,15 +329,6 @@ The following commands were used to push code to the remote repository:
 
 3. *git push* was used to push all local changes to the remote repository on GitHub.
 
-### Deployment to GitHub Pages
-
-The site was deployed to GitHub Pages.
-
-Below are the steps required:
-
-1. In **GitHub**, navigate to your username.github.io repository and click Settings.
-2. Within Settings, navigate to the Source section within the **GitHub Pages** section. From the dropdown menu, select the master branch and then click Save.
-
 ### Deploying New Changes
 
 Once **GitHub Pages** is set up, normal **GithHub** flow updates the live page.
