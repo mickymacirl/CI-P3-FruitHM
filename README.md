@@ -182,7 +182,7 @@ As a Site Administrator I want to:
 
 * Lines that were excessively long, abnormalities with spacing, and single- or double-line spacing were all addressed as they surfaced. As a consequence, the code was generally clean and devoid of errors and defects when final testing began.
 
-* Techniques like print() were used to check for flaws as the code was being created. It possible to verify that everything was operating as it should and that functions like selecting a random word from words.py were correctly displayed as a result.
+* Techniques like print() were used to check for flaws as the code was being created. It was possible to verify that everything was operating as it should and that functions like selecting a random word from words.py were correctly displayed as a result.
 
 * To enable the player understand why their decision was incorrect, all user inputs were validated and printed back to the screen.
 
