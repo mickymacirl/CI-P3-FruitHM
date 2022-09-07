@@ -38,8 +38,7 @@ def game_title():
         "to the 1890s. Players guess letters of an unrevealed word and then \n"
         "draw an arm, leg, head or torso of a stick figure hanging from \n"
         "gallows for every incorrect guess. If players draw all body parts\n"
-        "and the word still hasnt been spelled out, the player will\n"
-        "lose.\n"
+        "and the word still hasnt been spelled out, the player will lose.\n"
     )
 
 
