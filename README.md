@@ -150,6 +150,22 @@ As a Site Administrator, I want to:
 
 ![Main Game Board](./assets/readme/mainboardrm.jpg)
 
+### Win Message
+
+* When a player guesses all correct letters to make up the fruit word the game displays a win message.
+* A message in magenta says WON.
+* The message displays all missed and correct letters and the fruit word to the user.
+
+![Win Message](./assets/readme/winrm.jpg)
+
+### Lost Message
+
+* When a player fails to guess all the fruit letters in 8 tries the game displays a lost message.
+* A message in red says LOST.
+* The message displays all missed and correct letters and the fruit word to the user.
+
+![Lost Message](./assets/readme/lostrm.jpg)
+
 ## Features to Implement
 
 * In this game it would be useful to have a high scores and username option.
